@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Corbel;
+    src: url("Fonts/Corbel/corbel.ttf");
+}
+* {
+    font-family: Corbel, sans-serif;
+}
+.bar{
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+.bar .item{
+    display: inline-flex;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 15px;
+}
+.bar a.item:link, .bar a.item:visited{
+    text-decoration: none;
+}
+.nav{
+    position: fixed;
+    display: inline-flex;
+    justify-content: center;
+}
+.container{
+    padding: 50px 0;
+}
