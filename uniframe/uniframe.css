@@ -27,6 +27,21 @@
     display: inline-flex;
     justify-content: center;
 }
-.container{
-    padding: 50px 0;
+.center{
+    text-align: center;
+}
+.container h1{
+    font-size: 50px;
+}
+.container h6{
+    font-size: 20px;
+}
+.hslide{
+    
+}
+.hslide .lbutton{
+
+}
+.hslide .rbutton{
+    
 }
