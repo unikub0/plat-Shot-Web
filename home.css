@@ -24,9 +24,9 @@ body{
 .bar a.item:link, .bar a.item:visited{
     color: white;
 }
-.container{
-    float: ;
-}
 *{
     margin: 0;
+}
+a.button{
+    background-color: cyan;
 }

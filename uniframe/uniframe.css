@@ -22,6 +22,9 @@
 .bar a.item:link, .bar a.item:visited{
     text-decoration: none;
 }
+.bar a.item:hover{
+    border-bottom: 5px black;
+}
 .nav{
     position: fixed;
     display: inline-flex;
@@ -31,8 +34,15 @@
     text-align: center;
 }
 .container{
-    width: 100%;
-    min-height: 400px;
+    width: 80%;
+    min-height: 450px;
+    margin: 0 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.container.col{
+    flex-direction: column;
 }
 .container h1{
     font-size: 50px;
@@ -42,7 +52,11 @@
     font-size: 20px;
     margin: 0;
 }
-.container .title {
+.container .title.bottom {
+    vertical-align: bottom;
+}
+.container .title.right {
+    float: right;
 }
 .bar a.item:active{
     border-radius: 0px;
@@ -52,4 +66,16 @@
     margin-right: auto;
     margin-left: auto;
     display: block;
+}
+a.button{
+    display: block;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    min-width: min-content;
+}
+a.button .alt{
+    font-weight: normal;
+    font-size: 20px;
 }
