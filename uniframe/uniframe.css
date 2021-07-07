@@ -30,18 +30,26 @@
 .center{
     text-align: center;
 }
+.container{
+    width: 100%;
+    min-height: 400px;
+}
 .container h1{
     font-size: 50px;
+    margin: 0;
 }
 .container h6{
     font-size: 20px;
+    margin: 0;
 }
-.hslide{
-    
+.container .title {
 }
-.hslide .lbutton{
-
+.bar a.item:active{
+    border-radius: 0px;
 }
-.hslide .rbutton{
-    
+.hslide img {
+    border-radius: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }

@@ -1,6 +1,7 @@
 .bar .item{
     font-size: 25px;
     transition: background-color 450ms;
+    transition: border-radius 300ms;
 }
 body{
     background-color: gray;
@@ -10,15 +11,22 @@ body{
     align-items: center;
     height: min-content;
     position: sticky;
+    margin-top: 5px;
 }
 .bar{
     margin: 0;
     height: 45px;
     background-color: rgba(0, 0, 0, 0.500);
 }
-.bar a.item:hover, .bar a.item:active{
-    background-color: rgba(0, 0, 0, 0.100);
+.bar a.item:hover, .bar a.item:active, .bar a.item.active {
+    background-color: rgba(0, 0, 0, 0.300);
 }
 .bar a.item:link, .bar a.item:visited{
     color: white;
+}
+.container{
+    float: ;
+}
+*{
+    margin: 0;
 }
