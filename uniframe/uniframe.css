@@ -10,21 +10,22 @@
     background-color: black;
     color: white;
     padding: 5px;
-    display: inline-flex;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .bar .item{
-    display: inline-flex;
+    display: flex;
     vertical-align: middle;
     padding: 10px;
     border-radius: 15px;
+    justify-content: center;
 }
 .bar a.item:link, .bar a.item:visited{
     text-decoration: none;
 }
 .nav{
     position: fixed;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
 }
 .center{
